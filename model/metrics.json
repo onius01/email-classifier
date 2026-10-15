@@ -1,0 +1,37 @@
+{
+  "trained_at": "2026-10-15 15:56",
+  "sklearn_version": "1.9.1",
+  "n_messages": 5169,
+  "spam_ratio": 0.12633004449603405,
+  "model": "Naive Bayes",
+  "threshold": 0.8,
+  "cv_results": {
+    "Naive Bayes": {
+      "precision": 0.9692404060165696,
+      "recall": 0.9482234432234433,
+      "f1": 0.9584401488033842
+    },
+    "Logistic Regression": {
+      "precision": 0.9709193843539637,
+      "recall": 0.9386263736263738,
+      "f1": 0.9542171338916878
+    },
+    "Linear SVM (calibrated)": {
+      "precision": 0.9747448423039474,
+      "recall": 0.9367216117216118,
+      "f1": 0.9551310515141671
+    }
+  },
+  "test": {
+    "accuracy": 0.9864603481624759,
+    "precision": 0.968,
+    "recall": 0.9236641221374046,
+    "f1": 0.9453125,
+    "confusion": {
+      "true_ham": 899,
+      "false_spam": 4,
+      "missed_spam": 10,
+      "caught_spam": 121
+    }
+  }
+}
