@@ -1,3 +1,4 @@
+ HEAD
 # Spam Classifier
 
 SMS / short-email spam detector with a Streamlit UI.
@@ -26,3 +27,6 @@ long HTML emails well. For better coverage, add your own labelled messages to th
 ## Deploying (Streamlit Community Cloud)
 Commit `model/` (it is small). Set the Python version / `scikit-learn` pin to match the version
 printed in `model/metrics.json` so the model loads cleanly.
+
+# email-classifier
+ 224e7504328e347c91f5d37ccaf25eeb783bd97e
